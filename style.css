@@ -1,10 +1,12 @@
-/* CSS tùy chỉnh cho giao diện trang web giáo dục */
 html {
-  scroll-behavior: smooth; /* Cuộn mượt mà khi nhấp vào menu */
+  scroll-behavior: smooth;
 }
+
 .hero {
-  background-color: #f8f9fa; /* Nền xám nhạt cho phần Trang chủ */
+  background-color: #f8f9fa;
+  padding: 60px 0;
 }
+
 .hero h1 {
   font-size: 2.5rem;
   font-weight: 700;
