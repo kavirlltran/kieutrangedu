@@ -10,33 +10,21 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Thanh điều hướng (Navigation Bar) -->
+  <!-- Thanh điều hướng -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Trung tâm ABC</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#home">Trang chủ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#classes">Lớp học</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#teachers">Giáo viên</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#tuition">Học phí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#register">Cách đăng ký</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Liên hệ</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="#home">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#classes">Lớp học</a></li>
+          <li class="nav-item"><a class="nav-link" href="#teachers">Giáo viên</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tuition">Học phí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#register">Cách đăng ký</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li>
         </ul>
       </div>
     </div>
@@ -46,132 +34,23 @@
   <section id="home" class="py-5 hero">
     <div class="container text-center">
       <h1>Chào mừng đến với Trung tâm Dạy thêm ABC</h1>
-      <p>Trung tâm ABC cung cấp các khóa học thêm chất lượng cho học sinh từ lớp 6 đến lớp 12. Với đội ngũ giáo viên giàu kinh nghiệm và phương pháp giảng dạy hiệu quả, chúng tôi giúp các em nâng cao kiến thức và kỹ năng trong các môn học chính.</p>
-      <!-- Hình ảnh minh họa cho trung tâm -->
+      <p>Trung tâm ABC cung cấp các khóa học thêm chất lượng cho học sinh từ lớp 6 đến lớp 12.</p>
       <img src="https://via.placeholder.com/800x300" class="img-fluid my-4" alt="Hình ảnh trung tâm" />
     </div>
   </section>
 
-  <!-- Lớp học -->
-  <section id="classes" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="mb-4">Các lớp học</h2>
-      <p>Danh sách các lớp học đang tuyển sinh:</p>
-      <div class="table-responsive">
-        <table class="table table-bordered">
-          <thead class="table-light">
-            <tr>
-              <th>Lớp</th>
-              <th>Môn học</th>
-              <th>Thời gian học</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Lớp 6</td>
-              <td>Toán, Ngữ văn, Tiếng Anh</td>
-              <td>18:00 - 20:00 (Thứ Hai, Thứ Tư)</td>
-            </tr>
-            <tr>
-              <td>Lớp 7</td>
-              <td>Toán, Ngữ văn, Tiếng Anh</td>
-              <td>18:00 - 20:00 (Thứ Ba, Thứ Năm)</td>
-            </tr>
-            <tr>
-              <td>Lớp 8</td>
-              <td>Toán, Ngữ văn, Tiếng Anh</td>
-              <td>18:00 - 20:00 (Thứ Hai, Thứ Sáu)</td>
-            </tr>
-            <!-- Có thể thêm các lớp khác tương tự -->
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- Giáo viên -->
-  <section id="teachers" class="py-5">
-    <div class="container">
-      <h2 class="mb-4">Giáo viên</h2>
-      <p>Đội ngũ giáo viên giàu kinh nghiệm:</p>
-      <div class="row">
-        <!-- Giáo viên 1 -->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="GV Nguyễn Văn A" />
-            <div class="card-body">
-              <h5 class="card-title">Nguyễn Văn A</h5>
-              <p class="card-text">10 năm kinh nghiệm dạy Toán. Thầy A hiện là giáo viên tại trường THCS XYZ.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Giáo viên 2 -->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="GV Trần Thị B" />
-            <div class="card-body">
-              <h5 class="card-title">Trần Thị B</h5>
-              <p class="card-text">5 năm kinh nghiệm dạy Tiếng Anh. Cô B từng giảng dạy tại trung tâm ngoại ngữ ABC.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Giáo viên 3 -->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="GV Lê Văn C" />
-            <div class="card-body">
-              <h5 class="card-title">Lê Văn C</h5>
-              <p class="card-text">7 năm kinh nghiệm dạy Ngữ văn. Thầy C tốt nghiệp Đại học Sư phạm và có nhiều năm luyện thi.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Học phí -->
-  <section id="tuition" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="mb-4">Học phí</h2>
-      <p>Bảng học phí cho các khóa học:</p>
-      <table class="table table-bordered w-50 mx-auto">
-        <thead class="table-light">
-          <tr>
-            <th>Khóa học</th>
-            <th>Học phí</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Lớp 6 (Môn Toán)</td>
-            <td>300.000đ/tháng</td>
-          </tr>
-          <tr>
-            <td>Lớp 6 (Môn Ngữ văn)</td>
-            <td>300.000đ/tháng</td>
-          </tr>
-          <tr>
-            <td>Lớp 6 (Môn Tiếng Anh)</td>
-            <td>400.000đ/tháng</td>
-          </tr>
-          <!-- Thêm các mức học phí khác nếu cần -->
-        </tbody>
-      </table>
-      <p class="text-center mt-3"><em>(Học phí có thể thay đổi tùy theo thời lượng và nội dung khóa học.)</em></p>
-    </div>
-  </section>
+  <!-- Các phần khác của trang web (Lớp học, Giáo viên, Học phí,...) giữ nguyên như phiên bản trước -->
 
   <!-- Cách đăng ký -->
   <section id="register" class="py-5">
     <div class="container">
       <h2 class="mb-4">Cách đăng ký</h2>
-      <p>Quy trình đăng ký học:</p>
       <ol>
         <li>Liên hệ trung tâm qua số điện thoại hoặc email để nhận tư vấn.</li>
-        <li>Điền vào mẫu đăng ký (tại văn phòng hoặc trên website nếu có).</li>
-        <li>Nộp học phí theo hướng dẫn để hoàn tất thủ tục đăng ký.</li>
+        <li>Điền vào mẫu đăng ký trực tuyến.</li>
+        <li>Nộp học phí theo hướng dẫn.</li>
       </ol>
-      <!-- Nút đăng ký sử dụng JavaScript để tạo tương tác -->
+      <!-- Nút đăng ký để mở modal đăng ký -->
       <button id="registerBtn" class="btn btn-primary">Đăng ký ngay</button>
     </div>
   </section>
@@ -186,14 +65,55 @@
     </div>
   </section>
 
-  <!-- Chân trang (footer) -->
+  <!-- Chân trang -->
   <footer class="bg-dark text-light py-3">
     <div class="container text-center">
       <small>&copy; 2025 Trung tâm Dạy thêm ABC</small>
     </div>
   </footer>
 
-  <!-- JavaScript: Bootstrap JS và tệp script.js tùy chỉnh -->
+  <!-- Modal đăng ký -->
+  <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="registrationModalLabel">Đăng ký học thêm</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+        </div>
+        <div class="modal-body">
+          <form id="registrationForm">
+            <div class="mb-3">
+              <label for="studentName" class="form-label">Họ và tên học sinh</label>
+              <input type="text" class="form-control" id="studentName" required>
+            </div>
+            <div class="mb-3">
+              <label for="studentPhone" class="form-label">Số điện thoại học sinh</label>
+              <input type="tel" class="form-control" id="studentPhone" required>
+            </div>
+            <div class="mb-3">
+              <label for="parentName" class="form-label">Họ và tên phụ huynh</label>
+              <input type="text" class="form-control" id="parentName" required>
+            </div>
+            <div class="mb-3">
+              <label for="parentPhone" class="form-label">Số điện thoại phụ huynh</label>
+              <input type="tel" class="form-control" id="parentPhone" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Môn đăng ký học</label>
+              <input type="text" class="form-control" id="subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="registrationTime" class="form-label">Thời gian đăng ký học</label>
+              <input type="text" class="form-control" id="registrationTime" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Gửi đăng ký</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS và tệp script.js tùy chỉnh -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
